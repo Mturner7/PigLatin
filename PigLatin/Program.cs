@@ -69,7 +69,7 @@ namespace PigLatin
             while (running)
             {
                 PigOut();   
-                running = PromptUser("Would you like to translate another sentence?");
+                running = PromptUser("Would you like to translate another line?");
             }
         }
     }
