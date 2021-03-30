@@ -19,7 +19,7 @@ namespace PigLatin
 
         private static bool CheckWord(string word)
         {
-            if (!Regex.IsMatch(word, @"(^[a-zA-Z]+$)")) return false;
+            if (!Regex.IsMatch(word, @"(^[a-zA-Z']+$)")) return false;
             return true;
         }
 
